@@ -1,367 +1,521 @@
-<!DOCTYPE html>
-<!--
-  Girly by FreeHTML5.co
-  Twitter: https://twitter.com/fh5co
-  Facebook: https://fb.com/fh5co
-  URL: https://freehtml5.co
+<!--Author: Template Stock
+Author URL: http://templatestock.co
 -->
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Girly</title>
+<title>Above Free Responsive Template | Template Stock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Onepage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-md  fixed-top maine-menu">
-    <div class="container">
-      <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
-      <div id="my-nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Activity</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Testimonial</a></li>
-          <li class="nav-item"> <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a></li>
-          <li class="nav-item"> <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a></li>
-        </ul>
+<div class="header" id="head">	
+      <div class="container"> 
+         <div class="header-top">
+      		 <div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			 </div>
+		   <div class="top-menu">
+		   	<span class="menu"> </span>
+			<ul>
+			 	<nav class="cl-effect-5">
+				<li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
+				<li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
+				<li><a href="#work" class="scroll"><span data-hover="work"><span>work</span></a></li>
+				<li><a href="#services" class="scroll"><span data-hover="services">services</span></a></li>
+				<li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+				</nav>
+			 </ul>
+			 </div>
+			 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+			<div class="clearfix"></div>
+		 </div>  
+		  <div class="index-banner">
+       	   <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-wrap">
+				   	       	<div class="banner_center">
+				   		 		<h1>hello world,</h1> 
+				   		 		<h2>i am <span>graphic & web designer</span></h2>
+				   		 		<h2>from morocco</h2>
+				   		 		</div>
+				   		 </div>
+					</article>
+				   <article style="position: relative; width: 100%; opacity: 1;"> 
+				   	   	<div class="banner-wrap">
+				   	      <div class="banner_center">
+				   		 		<h1>Content here,</h1> 
+				   		 		<h2>Lorem <span>graphic &  designer</span></h2>
+				   		 		<h2>Contrary</h2>
+				   		 		</div>
+				   		  </div>
+				   </article>
+				   <article style="position: absolute; width: 100%; opacity: 0;">
+				   	  	<div class="banner-wrap">
+				   	       <div class="banner_center">
+				   		 		<h1>Lorem Ipsum ,</h1> 
+				   		 		<h2>Contrary to <span>&  designer</span></h2>
+				   		 		<h2>reproduced below</h2>
+				   		 		</div>
+				   		 </div>
+					 </article>
+				 </div>
+				
+            </div>
+            <script src="js/jquery.wmuSlider.js"></script> 
+			  <script>
+       			$('.example1').wmuSlider();         
+   		     </script> 	           	      
       </div>
-    </div>
-  </nav>
-  <div class="container-fluid fh5co-home-banner">
-    <div class="card"> <img class="card-img" src="assets/img/banner-img.jpg" alt="">
-      <div class="card-img-overlay">
-        <div class="center-text">
-          <h2 class="card-title">A camera is the save button
-          for the mind’s eye</h2>
-          <a href="#" class="btn">
-            <svg width="201" height="51" viewBox="0 0 201 51">
-              <defs>
-                <style>
-                .cls-1 {
-                  fill: none;
-                  stroke-width: 1px;
-                  stroke: url(#linear-gradient);
-                }
-              </style>
-              <linearGradient id="linear-gradient" x1="140.508" y1="50.5" x2="60.492" y2="0.5" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#e90e65"/>
-                <stop offset="1" stop-color="#fff"/>
-              </linearGradient>
-            </defs>
-            <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="0.5" y="0.5" width="200" height="50" rx="25" ry="25"/>
-          </svg>
-        Explore</a> </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid fh5co-two-img">
-    <div class="row">
-      <div class="col-sm-6 pr-0 pl-0">
-        <div class="card"> <img class="card-img" src="assets/img/girl1.jpg" alt="">
-          <div class="card-img-overlay"> </div>
-        </div>
-      </div>
-      <div class="col-sm-6 pr-0 pl-0">
-        <div class="card"> <img class="card-img" src="assets/img/girl2.jpg" alt="">
-          <div class="card-img-overlay"> </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	 </div>     
+	</div>
+	<div class="content">
+		<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<h3>about</h3>
+			<div class="about-imag">
+			<img src="images/pic-9.jpg" alt=""/>
+			</div>
+			<div class="about-text">
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p> 
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. . </p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			<div class="about-sectiongrids">
+				<div class="col-md-6 about-leftgrid">
+					<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Graphic Design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Ui/Ux</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Logo Design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Html/Css</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
 
-  <div class="container-fluid fh5co-recent-work">
-    <div class="container contact-pop">
-      <div class="row">
-        <div class="col-md-6  pr-0">
-          <div class="card"> <img class="card-img w-100" src="assets/img/girl3.jpg" alt="">
-            <div class="card-img-overlay"> </div>
-          </div>
-        </div>
-        <div class="col-md-6 pl-0" id="about">
-          <div class="content">
-            <h3>I am Sandra Reigel</h3>
-            <h4>Professional photographer</h4>
-            <hr />
-            <p>Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.</p>
-            <a href="#" class="btn">CONTACT</a> </div>
-          </div>
-        </div>
-      </div>
-      <div class="container recent" id="activity">
-        <div class="row">
-          <h2>Recent works</h2>
-          <div class="owl-carousel owl-carousel2 owl-theme">
-            <div>
-              <div class="card"> <img class="card-img" src="assets/img/recent-img1.jpg" alt="">
-                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                  <div class="bottom-text">
-                    <h5 class="card-title">Model photography</h5>
-                    <p class="card-text">Digital, Photography</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="card"> <img class="card-img" src="assets/img/recent-img2.jpg" alt="">
-                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                  <div class="bottom-text">
-                    <h5 class="card-title">Product photography</h5>
-                    <p class="card-text">Digital, Photography</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="card"> <img class="card-img" src="assets/img/recent-img3.jpg" alt="">
-                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                  <div class="bottom-text">
-                    <h5 class="card-title">Tour and potrait</h5>
-                    <p class="card-text">Digital, Photography</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="card"> <img class="card-img" src="assets/img/recent-img4.jpg" alt="">
-                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                  <div class="bottom-text">
-                    <h5 class="card-title">Classical photography</h5>
-                    <p class="card-text">Digital, Photography</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid recent fh5co-portfolio" id="portfolio">
-    <div class="container">
-      <h2>Portfolios</h2>
-      <div class="row">
-        <div class="bx bx-1">
-          <div class="card"> <img class="card-img" src="assets/img/portfolio-img1.png" alt="">
-            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-              <div class="bottom-text">
-                <h5 class="card-title">Natural site</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bx bx-2">
-          <div class="card"> <img class="card-img" src="assets/img/portfolio-img2.png" alt="">
-            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-              <div class="bottom-text">
-                <h5 class="card-title">Vacation special photography</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bx bx-3">
-          <div class="card"> <img class="card-img" src="assets/img/portfolio-img3.png" alt="">
-            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-              <div class="bottom-text">
-                <h5 class="card-title">Product photography</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bx bx-4">
-          <div class="card"> <img class="card-img" src="assets/img/portfolio-img4.png" alt="">
-            <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-              <div class="bottom-text">
-                <h5 class="card-title">Historical place shots</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bx bx-middle" style="padding: 0;">
-          <div class="bx bx-5">
-            <div class="card"> <img class="card-img" src="assets/img/portfolio-img5.png" alt="">
-              <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                <div class="bottom-text">
-                  <h5 class="card-title">Lorem ipsum dolor</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bx bx-6">
-            <div class="card"> <img class="card-img" src="assets/img/portfolio-img6.png" alt="">
-              <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                <div class="bottom-text">
-                  <h5 class="card-title">Lorem ipsum dolor</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="bx bx-7">
-              <div class="card"> <img class="card-img" src="assets/img/portfolio-img7.png" alt="">
-                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                  <div class="bottom-text">
-                    <h5 class="card-title">Portraits</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="bx bx-8">
-              <div class="card"> <img class="card-img" src="assets/img/portfolio-img8.png" alt="">
-                <div class="card-img-overlay"> <a href="#"><img src="assets/img/heart.png" class="heart" alt="heart icon"></a>
-                  <div class="bottom-text">
-                    <h5 class="card-title">Wedding photography</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid fh5co-recent-work activity">
-    <div class="container recent">
-      <div class="row">
-        <h2>Activity of the month</h2>
-        <div class="owl-carousel owl-carousel3 owl-theme">
-          <div>
-            <div class="card"> <img class="card-img" src="assets/img/activity-img1.png" alt="">
-              <div class="card-img-overlay">
-                <div class="bottom-text">
-                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
-                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card"> <img class="card-img" src="assets/img/activity-img2.png"  alt="">
-              <div class="card-img-overlay">
-                <div class="bottom-text">
-                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
-                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card"> <img class="card-img" src="assets/img/activity-img3.png" alt="">
-              <div class="card-img-overlay">
-                <div class="bottom-text">
-                  <h5 class="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
-                  <a href="#">Read more <img src="assets/img/double-right.svg" alt=""></a> 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid fh5co-about-me" id="testimonial">
-    <div id="my-carousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="card"> <img class="card-img d-block w-100" src="assets/img/about-me-img.jpg" alt="">
-          <div class="card-img-overlay">
-            <h2>People says about me</h2>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-caption d-md-block"> <img src="assets/img/quote-icon.png" alt="">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <div class="carousel-caption d-md-block"> <img src="assets/img/quote-icon.png" alt="">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-caption d-md-block"> <img src="assets/img/quote-icon.png" alt="">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-          </div>
-        </div>
-      </div>
-      <ol class="carousel-indicators">
-        <li data-target="#my-carousel" data-slide-to="0" > <img src="assets/img/about-me-img1.png" alt=""> <span>Sherrie Rose</span> </li>
-        <li class="active" data-target="#my-carousel" data-slide-to="1" aria-current="location"> <img src="assets/img/about-me-img2.png" alt=""> <span>Sherrie Rose</span> </li>
-        <li data-target="#my-carousel" data-slide-to="2"> <img src="assets/img/about-me-img3.png" alt=""> <span>Sherrie Rose</span> </li>
-      </ol>
-    </div>
-  </div>
-  <div class="container-fluid fh5co-insta-feed activity">
-    <div class="container recent">
-      <div class="row mb-5 pb-5">
-        <div class="col-lg-6">
-          <div class="twit-box">
-            <div class="media mb-3"> <img class="align-self-start mr-3 rounded-circle" src="assets/img/twit-girl-img.png" alt="">
-              <div class="media-body">
-                <h5 class="mb-0 mt-3">Sandra reigel</h5>
-                <p>@sandraphotography</p>
-              </div>
-            </div>
-            <p class="text-justify"> “Sed ut perspiciatis unde omnis iste nats error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut. </p>
-            <div class="clearfix"> <a href="#" class="btn btn-primary mt-2 float-right">Follow</a> </div>
-          </div>
-        </div>
-        <div class="col-lg-6 feed-caro">
-          <h2>Instagram feed</h2>
-          <div class="owl-carousel owl-carousel4 owl-theme">
-            <div>
-              <div class="card"> <img class="card-img" src="assets/img/feed-img1.png" alt="">
-                <div class="card-img-overlay"> </div>
-              </div>
-            </div>
-            <div>
-              <div class="card"> <img class="card-img" src="assets/img/feed-img2.png"  alt="">
-                <div class="card-img-overlay"> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h2 class="text-center d-block">Find me on social media</h2>
-      <div class="row social-links">
-        <ul class="nav mx-auto">
-          <li class="nav-item"> <a class="nav-link" href="https://www.facebook.com/fh5co"><img src="assets/img/facebook.png" alt=""></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="https://twitter.com/fh5co"><img src="assets/img/twitter.png" alt=""></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/pinterest.png" alt=""></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#"><img src="assets/img/google-plus.png" alt=""></a> </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <footer class="container-fluid p-0 pr-0">
-    <div class="row mr-0 ml-0">
-      <div class="col-md-6 pr-0 pl-0 map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13035.46901327725!2d-80.85396551628644!3d35.234674411422155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a03af474f38f%3A0xf8301daadf5f7670!2sFourth+Ward%2C+Charlotte%2C+NC%2C+USA!5e0!3m2!1sen!2sin!4v1551001218548"  style="border:0" allowfullscreen></iframe>
-      </div>
-      <div class="col-md-6 content-us">
-        <div class="contact-form" id="contact">
-          <h3 class="text-uppercase">Contact me</h3>
-          <input type="text" class="form-control" placeholder="Your Name">
-          <input type="text" class="form-control" placeholder="Your Email">
-          <textarea class="form-control" placeholder="Your Message"></textarea>
-          <button type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-    <div class="copy pt-4 pb-4">
-      <p><a href="https://freehtml5.co/" target="_blank"> &copy; 2019 Girly</a>  &nbsp;  |  &nbsp; Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> &nbsp; | &nbsp;  All rights reserved</p>
-    </div>
-  </footer>
+	</div>
+	<div class="col-md-6 about-rightgrid">
+		<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>web design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>branding</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Photography</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Jquery</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="arrow1">
+	<a href="#work" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+					</div>
+	</div>
+	</div>
+	<!-- about-section-ends -->
+	<div class="works-section" id="work" id="work">
+	   <div class="works-header">
+			<h3>works</h3>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+		</div>
+		<div class="portfolio-section-bottom-row" id="portfolio">
+			<div class="container">
+				
+						<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+					</script>
+						<link rel="stylesheet" href="css/swipebox.css">
+							<script src="js/jquery.swipebox.min.js"></script> 
+								<script type="text/javascript">
+									jQuery(function($) {
+										$(".swipebox").swipebox();
+									});
+								</script>
+							<!-- Portfolio Ends Here -->
+						<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								  <ul class="resp-tabs-list">
+									  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Branding</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Print</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Web design</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Photography</span></li>
+									  <div class="clearfix"></div>
+								  </ul>	
+								<div id="portfoliolist">
+									<div class="resp-tabs-container">
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-2.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-2.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-3.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-3.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-4.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-4.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-5.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-5.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-6.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-6.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-7.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-7.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-8.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-8.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="clearfix"></div>	
+											</div>
+																				 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+											<div class="tab_img">
+												<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-5.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-5.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-6.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-6.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-7.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-7.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-8.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-8.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="clearfix"></div>	
+											</div>	 	        					 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+											
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-2.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-2.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-3.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-3.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-4.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-4.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>		        					 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-2.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-2.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>	
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="images/pic-1.jpg" class="swipebox"  title="Image Title">
+															  <img src="images/pic-1.jpg" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>	
+										</div>										
+									</div>	
+								</div>
+							</div>
+						</div>				
+ 
+				<div class="arrow">
+					<a href="#services" class="scroll"><img src="images/arrow.png" alt=""/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<div class="services-section" id="services">
+			<div class="container"> 
+			<div class="services-header">
+				<h3>services</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+			</div>
+			<div class="services-sectiongrids">
+				<div class="col-md-4 services-grid">
+					<img src="images/img1.png" alt=""/>
+					<h4>webdesign</h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="images/img2.png" alt=""/>
+					<h4>print design</h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="images/img3.png" alt=""/>
+					<h4>web development</h4>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="arrow1">
+					<a href="#contact" class="scroll"><img src="images/arrow1.png" alt=""/></a>
+					</div>
+		</div>
+		</div>
+		</div>
+		<!-- services-section-ends -->
+	</div>
+	<div class="footer-section" id="contact" id="contact">
+			<div class="container"> 
+			<div class="contact-header">
+				<h3> contact</h3>
+					<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+			</div>
+			<div class="social-icon">
+				<a href="#"><i class="icon1"></i></a>
+				<a href="#"><i class="icon2"></i></a>
+				<a href="#"><i class="icon3"></i></a>
+				<a href="#"><i class="icon4"></i></a>
+				<a href="#"><i class="icon5"></i></a>
+				<a href="#"><i class="icon6"></i></a>
+				<a href="#"><i class="icon7"></i></a>
+				<a href="#"><i class="icon8"></i></a>
+			</div>
+			<div class="contact">
+				<form>
+					<div class="col-md-4 contactgrid">
+						<input type="text" class="text" value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
+					</div>
+					<div class="col-md-4 contactgrid">
+						<input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
+					</div>
+					<div class="col-md-4 contactgrid">
+						<input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
+					</div>
+					<div class="col-md-8 contactgrid1">
+						<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					</div>
+					<div class="col-md-4 contactgrid2">
+						<input type="submit" value="[send message]">
+					</div>
+				   <div class="clearfix"></div>
+				</form>
+			</div>
+			<div class="footer-bottom">
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-  <script src="assets/js/jquery-3.3.1.slim.min.js"></script> 
-  <script src="assets/js/popper.min.js" ></script> 
-  <script src="assets/js/bootstrap.min.js"></script> 
-  <script src="assets/js/owl.carousel.min.js"></script> 
-  <script src="assets/js/main.js"></script>
+					<p>&copy; 2015 Onepage . All rights  Reserved | Template by<a href="http://templatestock.com" target="target_blank">Template Stock</a></p>
 
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+		</div>		
+	</div>
+	
+	
 </body>
 </html>
